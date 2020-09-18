@@ -17,15 +17,13 @@
   <script>
     window.$docsify = {
       name: 'docsify',
-      repo: 'https://github.com/CaolpC/docsify',
-      //自定义主题
-      themeColor: '#c30aff',
-      //外链打开方式
-      externalLinkTarget: '_blank'
+      repo: 'https://github.com/CaolpC/Code',
+      // externalLinkTarget: '_blank'
     }
   </script>
   <script>
     window.$docsify = {
+      themeColor: '#c30aff',
       coverpage: true,
       auto2top: true
     }
@@ -35,13 +33,11 @@
       loadSidebar: true,
       subMaxLevel: 3,
       loadNavbar: true,
-      // //设置路由模式
       // routerMode: 'history'
     }
   </script>
   <script>
     window.$docsify{
-
       //自定义搜索框
       search: {
         maxAge: 86400000,
@@ -72,9 +68,9 @@
   <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
   <!--支持LaTex公式-->
   <!-- CDN files for docsify-katex -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
   <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/> --> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
   <!--支持pdf展示-->
   <!-- PDFObject.js is a required dependency of this plugin -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
