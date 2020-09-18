@@ -1,4 +1,4 @@
-# Git简单操作
+# 文字测试
 
 ```git
 git init // 初始化一个仓库
@@ -15,5 +15,10 @@ $$ x^{y^z}=(1+{\rm e}^x)^{-2xy^w} $$
 # pdf测试
 
 ```pdf
-    ./pdf/IJLEO_57988.pdf
+    ../pdf/IJLEO_57988.pdf
 ```
+# 图片测试
+
+<img src="../pictures/cat.jpg">
+
+![图片测试](../pictures/cat.jpg)

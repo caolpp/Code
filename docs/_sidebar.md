@@ -26,7 +26,7 @@
 
 - Git
 
-  - [Git](git/git.md)
+  - [Git](test/test.md)
 
 - **Links**
 - [![code](https://icongr.am/clarity/link.svg?size=16&color=808080) 个人博客](https://www.51it.wang)
