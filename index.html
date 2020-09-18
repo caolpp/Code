@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- <html lang="zh"> -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+</head>
+
+<body>
+  <!--自定义加载文字-->
+  <div id="app">Please wait...</div>
+  <script>
+    window.$docsify = {
+      name: 'docsify',
+      repo: 'https://github.com/CaolpC/docsify',
+      //自定义主题
+      themeColor: '#c30aff',
+      //外链打开方式
+      externalLinkTarget: '_blank'
+    }
+  </script>
+
+  <script>
+    window.$docsify = {
+      //自定义侧边栏
+      loadSidebar: true,
+      // subMaxLevel: 2表示只显示h1~h2的标题，对应#和##
+      subMaxLevel: 3,
+      //自定义导航栏
+      loadNavbar: true,
+      //更改路线时滚动到屏幕顶部
+      auto2top: true,
+      //自定义封面
+      coverpage: true,
+      //设置路由模式
+      routerMode: 'history'
+    }
+  </script>
+  <script>
+      window.$docsify{
+      
+      //自定义搜索框
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: {
+          '/': 'Type to search'
+        },
+        noData: {
+          '/': 'No Results'
+        },
+        depth: 3,
+        hideOtherSidebarContent: false
+      }
+    }
+  </script>
+
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/external-script.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="https://unpkg.com/docsify-remote-markdown/dist/docsify-remote-markdown.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
+  <!--支持LaTex公式-->
+  <!-- CDN files for docsify-katex -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/> --> -->
+  <!--支持pdf展示-->
+  <!-- PDFObject.js is a required dependency of this plugin -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script> 
+  <!-- This is the source code of the pdf embed plugin -->
+  <script src="path-to-file/docsify-pdf-embed.js"></script>
+  <!-- or use this if you are not hosting the file yourself -->
+  <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
+  <!--添加中英文空格插件-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
+  </body>
+
+</html>
