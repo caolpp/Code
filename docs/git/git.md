@@ -23,9 +23,9 @@ $$ x^{y^z}=(1+{\rm e}^x)^{-2xy^w} $$
   <!--panels:start-->
   <!--div:floating-cat-->
 
-    <img src="../pictures/cat.jpg">
+  <img src="../pictures/cat.png">
 
   <!--panels:end-->
 
 
-![图片测试](../pictures/cat.jpg)
+![图片测试](../pictures/cat.png)
