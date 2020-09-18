@@ -24,38 +24,36 @@
       externalLinkTarget: '_blank'
     }
   </script>
-
   <script>
-    window.$docsify = {
-      //自定义侧边栏
-      loadSidebar: true,
-      // subMaxLevel: 2表示只显示h1~h2的标题，对应#和##
-      subMaxLevel: 3,
-      //自定义导航栏
-      loadNavbar: true,
-      //更改路线时滚动到屏幕顶部
-      auto2top: true,
-      //自定义封面
+    window.$docsify{
       coverpage: true,
-      //设置路由模式
-      routerMode: 'history'
+        auto2top: true
     }
   </script>
   <script>
-      window.$docsify{
-      
+    window.$docsify = {
+      loadSidebar: true,
+      subMaxLevel: 3,
+      loadNavbar: true,
+      // //设置路由模式
+      // routerMode: 'history'
+    }
+  </script>
+  <script>
+    window.$docsify{
+
       //自定义搜索框
       search: {
         maxAge: 86400000,
-        paths: 'auto',
-        placeholder: {
+          paths: 'auto',
+            placeholder: {
           '/': 'Type to search'
         },
         noData: {
           '/': 'No Results'
         },
         depth: 3,
-        hideOtherSidebarContent: false
+          hideOtherSidebarContent: false
       }
     }
   </script>
@@ -79,13 +77,13 @@
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/> --> -->
   <!--支持pdf展示-->
   <!-- PDFObject.js is a required dependency of this plugin -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script> 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
   <!-- This is the source code of the pdf embed plugin -->
   <script src="path-to-file/docsify-pdf-embed.js"></script>
   <!-- or use this if you are not hosting the file yourself -->
   <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
   <!--添加中英文空格插件-->
   <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
-  </body>
+</body>
 
 </html>
