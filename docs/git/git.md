@@ -20,6 +20,6 @@ $$ x^{y^z}=(1+{\rm e}^x)^{-2xy^w} $$
 
 # 图片测试
 
-![图片测试](../pictures/cat.jpg)
+<img src="../pictures/cat.jpg">
 
-<img src="./pictures/cat.jpg">
+![图片测试](../pictures/cat.jpg)
