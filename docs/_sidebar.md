@@ -16,8 +16,8 @@
 
 - Guide
 
-  - [Deploy](code/print.md)
-  - [Helpers](helpers.md)
+  - [print](code/print.md)
+  - [PermuteUnique](code/PermuteUnique.md)
   - [Vue compatibility](vue.md)
   - [CDN](cdn.md)
   - [Offline Mode(PWA)](pwa.md)
