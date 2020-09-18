@@ -11,3 +11,9 @@ git push -u origin master // 推送到远程myblogs仓库
 # 公式测试
 
 $$ x^{y^z}=(1+{\rm e}^x)^{-2xy^w} $$
+
+# pdf测试
+
+```pdf
+    ./pdf/IJLEO_57988.pdf
+```
