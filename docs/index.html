@@ -12,20 +12,18 @@
 </head>
 
 <body>
-  <!--自定义加载文字-->
   <div id="app">Please wait...</div>
   <script>
     window.$docsify = {
-      name: 'docsify',
-      repo: 'https://github.com/CaolpC/Code',
-      // externalLinkTarget: '_blank'
+      coverpage: true,
+      themeColor: '#c30aff',
+      externalLinkTarget: '_blank'
     }
   </script>
   <script>
     window.$docsify = {
-      themeColor: '#c30aff',
-      coverpage: true,
-      auto2top: true
+      name: 'docsify',
+      repo: 'https://github.com/CaolpC/Code',
     }
   </script>
   <script>
@@ -33,7 +31,7 @@
       loadSidebar: true,
       subMaxLevel: 3,
       loadNavbar: true,
-      // routerMode: 'history'
+      auto2top: true
     }
   </script>
   <script>
@@ -66,19 +64,12 @@
   <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
-  <!--支持LaTex公式-->
-  <!-- CDN files for docsify-katex -->
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-  <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
-  <!--支持pdf展示-->
-  <!-- PDFObject.js is a required dependency of this plugin -->
+  <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
   <script src="//cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
-  <!-- This is the source code of the pdf embed plugin -->
   <script src="path-to-file/docsify-pdf-embed.js"></script>
-  <!-- or use this if you are not hosting the file yourself -->
   <script src="//unpkg.com/docsify-pdf-embed-plugin/src/docsify-pdf-embed.js"></script>
-  <!--添加中英文空格插件-->
   <script src="//cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
 </body>
 
