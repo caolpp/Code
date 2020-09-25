@@ -15,7 +15,7 @@
   - [Language highlighting](language-highlight.md)
 
 - Guide
-
+  - [二叉树](code/binaryTree.md)
   - [print](code/print.md)
   - [PermuteUnique](code/PermuteUnique.md)
   - [Vue compatibility](vue.md)
