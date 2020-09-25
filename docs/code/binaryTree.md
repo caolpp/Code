@@ -10,7 +10,7 @@
 
 将输入数组 *nums* 的值放入到 *treeNodes*， 如果 *nums[i]* 的值为 *nteger.MAX_VALUE*，则该节点为空
 
-通过子节点和父节点的关系，进行节点连接，此处需要判断 *i x 2 + 1*，*i x 2 + 2* 与 *nums.length* 的关系，同时循环的次数应该小于 *treeNodes.length / 2-1*
+通过子节点和父节点的关系，进行节点连接，此处需要判断 *i x 2 + 1* 和 *i x 2 + 2* 与 *nums.length* 的关系（小于），同时循环的次数应该小于 *treeNodes.length / 2-1*
 
 返回 *treeNodes[0]*
 
