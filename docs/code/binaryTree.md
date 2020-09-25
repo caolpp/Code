@@ -180,8 +180,8 @@ public class PrintTree {
     }
 
 }
-
 ```
+
 ```
             1            
          /     \         
