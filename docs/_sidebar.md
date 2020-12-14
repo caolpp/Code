@@ -25,7 +25,7 @@
   - [Embed Files](embed-files.md)
 
 - Boss
-  - [修改地址树](boss/address.md)
+  - [修改地址树](Boss/address.md)
 
 - Git
   - [Git](git/git.md)
