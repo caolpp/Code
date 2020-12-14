@@ -22,3 +22,21 @@ $$ x^{y^z}=(1+{\rm e}^x)^{-2xy^w} $$
 
 
 ![图片测试](../pictures/cat.png)
+
+#mindmap测试
+
+```mindmap-json
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "topic1",
+      "children": [{ "name": "subtopic" }]
+    },
+    {
+      "name": "topic2",
+      "children": [{ "name": "subtopic" }]
+    }
+  ]
+}
+```
