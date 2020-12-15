@@ -1,6 +1,6 @@
 # A magical documentation site generator
 
-> Caolp 博客系统。
+> The Long Dark.
 
 [GitHub](https://github.com/CaolpC/LeetCode)
 [Get Started](README.md)

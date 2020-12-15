@@ -4,4 +4,4 @@
     ./pdf/ps_sync.pdf
 ```
 
-![](E:\Code\docs\docs\pictures\PS同步.svg)
+![](../pictures/ps_sync.svg)
