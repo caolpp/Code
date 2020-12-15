@@ -1,4 +1,4 @@
-# A magical documentation site generator
+# C"est la vie!
 
 > The Long Dark.
 
