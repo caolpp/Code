@@ -26,6 +26,7 @@
 
 - Boss
   - [修改地址树](Boss/address.md)
+  - [PS同步](Boss/ps_sync.md)
 
 - Git
   - [Git](git/git.md)
