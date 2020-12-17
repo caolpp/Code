@@ -18,3 +18,12 @@ SQL> startup    启动服务
 SQL> alter pluggable database bosspdb open;
 如果不执行这个，dataGrip连接的时候会报：ora-01033:oracle initialization or shutdown in progress；
 ```
+
+### SQL 字符串截取函数
+```sql
+    select substr('12345678', -8, 8) FROM dual; #运行结果：'12345678'
+    select substr('12345678', -9, 9) FROM dual; #运行结果：null
+
+    select 1 from dual where null like '%019';  #无运行结果
+    select 1 from dual WHERE '019' like '%' || null #运行结果：1
+```
