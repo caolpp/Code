@@ -28,6 +28,7 @@
   - [修改地址树](Boss/address.md)
   - [PS同步](Boss/ps_sync.md)
   - [Oracle](Boss/oracle.md)
+  - [国际化内容](Boss/messageSource.md)
 - Git
   - [Git](git/git.md)
 
